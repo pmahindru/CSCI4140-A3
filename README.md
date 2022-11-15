@@ -27,6 +27,7 @@ https://www.canadiantire.ca/en/pdp/mikasa-v350w-fivb-replica-outdoor-volleyball-
 
 # Folder/File Structure
 
+.
 ├── BaseURL.php
 ├── PHP_URL
 │   ├── AddPOsUpdateLine.php
@@ -56,9 +57,9 @@ https://www.canadiantire.ca/en/pdp/mikasa-v350w-fivb-replica-outdoor-volleyball-
 │   │   │   ├── readPart022.php
 │   │   │   └── readSinglePart022.php
 │   │   └── UserSelectPartsAPI
-│   │       ├── deleteUserSelectParts022.php
-│   │       ├── insertUserSelectParts022.php
-│   │       └── readUserSelectPart022.php
+│   │   ├── deleteUserSelectParts022.php
+│   │   ├── insertUserSelectParts022.php
+│   │   └── readUserSelectPart022.php
 │   ├── account.php
 │   ├── card.php
 │   ├── head.php
@@ -82,9 +83,9 @@ https://www.canadiantire.ca/en/pdp/mikasa-v350w-fivb-replica-outdoor-volleyball-
 │   │   │   ├── readPart022.php
 │   │   │   └── readSinglePart022.php
 │   │   └── UserSelectPartsAPI
-│   │       ├── deleteUserSelectParts022.php
-│   │       ├── insertUserSelectParts022.php
-│   │       └── readUserSelectPart022.php
+│   │   ├── deleteUserSelectParts022.php
+│   │   ├── insertUserSelectParts022.php
+│   │   └── readUserSelectPart022.php
 │   ├── account.php
 │   ├── card.php
 │   ├── head.php
@@ -108,9 +109,9 @@ https://www.canadiantire.ca/en/pdp/mikasa-v350w-fivb-replica-outdoor-volleyball-
 │   │   │   ├── readPart022.php
 │   │   │   └── readSinglePart022.php
 │   │   └── UserSelectPartsAPI
-│   │       ├── deleteUserSelectParts022.php
-│   │       ├── insertUserSelectParts022.php
-│   │       └── readUserSelectPart022.php
+│   │   ├── deleteUserSelectParts022.php
+│   │   ├── insertUserSelectParts022.php
+│   │   └── readUserSelectPart022.php
 │   ├── account.php
 │   ├── card.php
 │   ├── head.php
