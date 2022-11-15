@@ -27,7 +27,7 @@ https://www.canadiantire.ca/en/pdp/mikasa-v350w-fivb-replica-outdoor-volleyball-
 
 # Folder/File Structure
 
-'```bash' taken from given link https://stackoverflow.com/questions/23989232/is-there-a-way-to-represent-a-directory-tree-in-a-github-readme-md
+how to format tree is taken from given link https://stackoverflow.com/questions/23989232/is-there-a-way-to-represent-a-directory-tree-in-a-github-readme-md
 
 ```bash
 
