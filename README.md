@@ -24,3 +24,116 @@ https://www.adidas.ca/en/cotton-baseball-cap/FK0891.html
 https://techcrunch.com/2019/07/11/robot-umpires-make-independent-league-baseball-debut/
 
 https://www.canadiantire.ca/en/pdp/mikasa-v350w-fivb-replica-outdoor-volleyball-size-5-1841173p.html
+
+# Folder/File Structure
+
+├── BaseURL.php
+├── PHP_URL
+│   ├── AddPOsUpdateLine.php
+│   ├── AddToUserSelectPart.php
+│   ├── AddtoClient.php
+│   ├── Checkout.php
+│   └── SubToUserSelectPart.php
+├── README.md
+├── class
+│   ├── Clients022.php
+│   ├── Lines022.php
+│   ├── POs022.php
+│   ├── Parts022.php
+│   └── User_select_parts022.php
+├── companyX
+│   ├── APIs
+│   │   ├── ClientsAPI
+│   │   │   ├── createClient022.php
+│   │   │   ├── readClient022.php
+│   │   │   └── readSingleClient022.php
+│   │   ├── LinesAPI
+│   │   │   └── readLines022.php
+│   │   ├── POsAPI
+│   │   │   ├── insertPOs022.php
+│   │   │   └── readAllClientIDPOs.php
+│   │   ├── PartsAPI
+│   │   │   ├── readPart022.php
+│   │   │   └── readSinglePart022.php
+│   │   └── UserSelectPartsAPI
+│   │   ├── deleteUserSelectParts022.php
+│   │   ├── insertUserSelectParts022.php
+│   │   └── readUserSelectPart022.php
+│   ├── account.php
+│   ├── card.php
+│   ├── head.php
+│   ├── index.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── navigation.php
+│   └── status_of_order.php
+├── companyY
+│   ├── APIs
+│   │   ├── ClientsAPI
+│   │   │   ├── createClient022.php
+│   │   │   ├── readClient022.php
+│   │   │   └── readSingleClient022.php
+│   │   ├── LinesAPI
+│   │   │   └── readLines022.php
+│   │   ├── POsAPI
+│   │   │   ├── insertPOs022.php
+│   │   │   └── readAllClientIDPOs.php
+│   │   ├── PartsAPI
+│   │   │   ├── readPart022.php
+│   │   │   └── readSinglePart022.php
+│   │   └── UserSelectPartsAPI
+│   │   ├── deleteUserSelectParts022.php
+│   │   ├── insertUserSelectParts022.php
+│   │   └── readUserSelectPart022.php
+│   ├── account.php
+│   ├── card.php
+│   ├── head.php
+│   ├── index.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── navigation.php
+│   └── status_of_order.php
+├── companyZ
+│   ├── APIs
+│   │   ├── ClientsAPI
+│   │   │   ├── createClient022.php
+│   │   │   ├── readClient022.php
+│   │   │   └── readSingleClient022.php
+│   │   ├── LinesAPI
+│   │   │   └── readLines022.php
+│   │   ├── POsAPI
+│   │   │   ├── insertPOs022.php
+│   │   │   └── readAllClientIDPOs.php
+│   │   ├── PartsAPI
+│   │   │   ├── readPart022.php
+│   │   │   └── readSinglePart022.php
+│   │   └── UserSelectPartsAPI
+│   │   ├── deleteUserSelectParts022.php
+│   │   ├── insertUserSelectParts022.php
+│   │   └── readUserSelectPart022.php
+│   ├── account.php
+│   ├── card.php
+│   ├── head.php
+│   ├── index.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── navigation.php
+│   └── status_of_order.php
+├── css
+│   └── style.css
+├── database
+│   └── db.php
+├── img
+│   ├── AdidasShoes.png
+│   ├── AdidasT-shirt.png
+│   ├── Adidashat.png
+│   ├── BadmintonRackets.png
+│   ├── NikeShoes.png
+│   ├── NikeSportsShoes.png
+│   ├── NikeT-shirt.png
+│   ├── baseballset.png
+│   ├── classicfootball.png
+│   └── vollyball.png
+├── js
+│   └── script.js
+└── mahindru.sql
