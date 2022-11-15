@@ -27,6 +27,7 @@ https://www.canadiantire.ca/en/pdp/mikasa-v350w-fivb-replica-outdoor-volleyball-
 
 # Folder/File Structure
 
+```bash
 .
 ├── BaseURL.php
 ├── PHP_URL
@@ -138,3 +139,4 @@ https://www.canadiantire.ca/en/pdp/mikasa-v350w-fivb-replica-outdoor-volleyball-
 ├── js
 │   └── script.js
 └── mahindru.sql
+```
