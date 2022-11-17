@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db.cs.dal.ca
--- Generation Time: Nov 14, 2022 at 08:46 PM
+-- Generation Time: Nov 16, 2022 at 11:52 PM
 -- Server version: 10.3.21-MariaDB
 -- PHP Version: 7.4.28
 
@@ -43,14 +43,15 @@ CREATE TABLE `Clients022` (
 
 INSERT INTO `Clients022` (`clientID022`, `clientName022`, `clientCity022`, `clientCompPassword022`, `dollarsOnOrder022`, `moneyOwed022`, `clientStatus022`) VALUES
 (1, 'Pranav Mahindru', 'Halifax', 'blah123', '0.00', '1179.99', 'InActive'),
-(2, 'Ritik Roshan', 'Delhi', 'blahb456', '879.99', '0.00', 'InActive'),
+(2, 'Ritik Roshan', 'Delhi', 'blahb456', '600.00', '0.00', 'InActive'),
 (3, 'Rajiv Kumar', 'Georgia', 'blah678', '3590.02', '0.00', 'InActive'),
-(4, 'Indu Arora', 'Toronto', 'blah910', '2940.02', '0.00', 'InActive'),
+(4, 'Indu Arora', 'Toronto', 'blah910', '2940.02', '0.00', 'Active'),
 (5, 'Alex Tylor', 'Ottawa', 'blah112', '4300.00', '0.00', 'InActive'),
 (6, 'dr.br rao', 'halifax', 'blash727', '2000.00', '0.00', 'InActive'),
 (7, 'David ', 'Georgia', 'blah23221', '1070.01', '0.00', 'InActive'),
 (8, 'Shubham', 'punjab', 'asdowni239', '0.00', '15.87', 'InActive'),
-(9, 'zeeday', 'hali', 'aslnd23', '2000.00', '0.00', 'InActive');
+(9, 'zeeday', 'hali', 'aslnd23', '2000.00', '0.00', 'InActive'),
+(10, 'try100', 'try100', 'try100', '4990.00', '0.00', 'Active');
 
 -- --------------------------------------------------------
 
@@ -75,11 +76,12 @@ CREATE TABLE `ClientsY022` (
 INSERT INTO `ClientsY022` (`clientID022`, `clientName022`, `clientCity022`, `clientCompPassword022`, `dollarsOnOrder022`, `moneyOwed022`, `clientStatus022`) VALUES
 (1, 'dr.br rao', 'Georgia', 'blash727', '0.00', '109.99', 'InActive'),
 (2, 'Ritik Roshan', 'Delhi', 'blash7223', '1409.98', '0.00', 'InActive'),
-(3, 'Peter', 'Georgia', 'blah678231', '4140.08', '0.00', 'InActive'),
+(3, 'Peter', 'Georgia', 'blah678231', '3400.10', '0.00', 'InActive'),
 (4, 'Rahul sharma', 'Toronto', 'blah6782', '510.03', '0.00', 'InActive'),
 (5, 'kunal arora', 'Ottawa', 'blah61', '1190.01', '0.00', 'InActive'),
 (6, 'Pranav Mahindru', 'halifax', 'lol1', '0.00', '199.97', 'InActive'),
-(7, 'tryY', 'tryYhali', 'aoinsdpoa', '200.00', '0.00', 'InActive');
+(7, 'tryY', 'tryYhali', 'aoinsdpoa', '200.00', '0.00', 'InActive'),
+(8, 'aopdh', 'iobf9w', 'fwh90ef', '1200.00', '0.00', 'InActive');
 
 -- --------------------------------------------------------
 
@@ -106,7 +108,8 @@ INSERT INTO `ClientsZ022` (`clientID022`, `clientName022`, `clientCity022`, `cli
 (2, 'David', 'Delhi', 'blahb456', '2000.00', '0.00', 'InActive'),
 (3, 'modi', 'Georgia', 'blah678', '4270.01', '0.00', 'InActive'),
 (4, 'shivam', 'Toronto', 'blah910', '3890.02', '0.00', 'InActive'),
-(5, 'tryZ', 'ainsfpoan', 'aopndfsan9f2342``', '2860.00', '0.00', 'InActive');
+(5, 'tryZ', 'ainsfpoan', 'aopndfsan9f2342``', '2860.00', '0.00', 'InActive'),
+(6, 'try2', 'inafdsipo', 'oibwfeibw', '200.00', '0.00', 'InActive');
 
 -- --------------------------------------------------------
 
@@ -146,7 +149,9 @@ INSERT INTO `Lines022` (`lineNo022`, `poNo022`, `partNo022`, `priceOrdered022`, 
 (17, 5, 7, '50.00', 1),
 (18, 6, 3, '129.99', 1),
 (19, 6, 4, '200.00', 1),
-(20, 6, 5, '200.00', 1);
+(20, 6, 5, '200.00', 1),
+(21, 7, 2, '150.00', 1),
+(22, 7, 3, '129.99', 1);
 
 --
 -- Triggers `Lines022`
@@ -204,7 +209,11 @@ INSERT INTO `LinesY022` (`lineNo022`, `poNo022`, `partNo022`, `priceOrdered022`,
 (11, 4, 2, '429.99', 3),
 (12, 4, 3, '129.99', 1),
 (13, 4, 5, '80.00', 1),
-(14, 4, 6, '300.00', 4);
+(14, 4, 6, '300.00', 4),
+(15, 5, 2, '429.99', 1),
+(16, 5, 3, '129.99', 1),
+(17, 5, 4, '100.00', 1),
+(18, 5, 5, '80.00', 1);
 
 --
 -- Triggers `LinesY022`
@@ -310,11 +319,11 @@ CREATE TABLE `Parts022` (
 --
 
 INSERT INTO `Parts022` (`partNo022`, `partName022`, `partDescription022`, `partImgs022`, `currentPrice022`, `QoH022`, `companyName`) VALUES
-(1, 'Nike AirMax', 'Nike Shoes', 'NikeShoes.png', '100.00', 46, 'X'),
-(2, 'Nike Sportswear', 'Nike T-shirt', 'NikeT-shirt.png', '150.00', 45, 'X'),
-(3, 'Adidas Classics', 'Adidas T-shirt', 'AdidasT-shirt.png', '129.99', 47, 'X'),
-(4, 'Adidas Edge', 'Adidas Shoes', 'AdidasShoes.png', '200.00', 47, 'X'),
-(5, 'Nike Sports Shoes', 'Sports Shoes', 'NikeSportsShoes.png', '200.00', 46, 'X'),
+(1, 'Nike AirMax', 'Nike Shoes', 'NikeShoes.png', '100.00', 45, 'X'),
+(2, 'Nike Sportswear', 'Nike T-shirt', 'NikeT-shirt.png', '150.00', 44, 'X'),
+(3, 'Adidas Classics', 'Adidas T-shirt', 'AdidasT-shirt.png', '129.99', 44, 'X'),
+(4, 'Adidas Edge', 'Adidas Shoes', 'AdidasShoes.png', '200.00', 46, 'X'),
+(5, 'Nike Sports Shoes', 'Sports Shoes', 'NikeSportsShoes.png', '200.00', 44, 'X'),
 (6, 'classic football', 'classic football for junior player', 'classicfootball.png', '200.00', 49, 'X'),
 (7, 'Badminton Rackets', 'Badminton Rackets Yonex', 'BadmintonRackets.png', '50.00', 48, 'X');
 
@@ -340,10 +349,10 @@ CREATE TABLE `PartsY022` (
 
 INSERT INTO `PartsY022` (`partNo022`, `partName022`, `partDescription022`, `partImgs022`, `currentPrice022`, `QoH022`, `companyName`) VALUES
 (1, 'Vollyball', 'Vollyball ', 'vollyball.png', '240.00', 17, 'Y'),
-(2, 'baseball Set', 'baseball Set for Kids', 'baseballset.png', '429.99', 16, 'Y'),
-(3, 'Adidas Classics', 'Adidas T-shirt', 'AdidasT-shirt.png', '129.99', 19, 'Y'),
-(4, 'Adidas Edge', 'Adidas Shoes', 'AdidasShoes.png', '100.00', 17, 'Y'),
-(5, 'Adidas Hat', 'Kids Adidas Hat sale', 'Adidashat.png', '80.00', 16, 'Y'),
+(2, 'baseball Set', 'baseball Set for Kids', 'baseballset.png', '429.99', 15, 'Y'),
+(3, 'Adidas Classics', 'Adidas T-shirt', 'AdidasT-shirt.png', '129.99', 18, 'Y'),
+(4, 'Adidas Edge', 'Adidas Shoes', 'AdidasShoes.png', '100.00', 15, 'Y'),
+(5, 'Adidas Hat', 'Kids Adidas Hat sale', 'Adidashat.png', '80.00', 15, 'Y'),
 (6, 'classic football', 'classic football for junior player', 'classicfootball.png', '300.00', 16, 'Y');
 
 -- --------------------------------------------------------
@@ -369,7 +378,8 @@ INSERT INTO `POs022` (`poNo022`, `clientID022`, `dateOfPO022`, `status022`) VALU
 (3, 4, '2022-11-13 06:32:38', 'pending'),
 (4, 9, '2022-11-14 20:04:48', 'pending'),
 (5, 8, '2022-11-14 20:08:36', 'pending'),
-(6, 2, '2022-11-14 20:09:47', 'pending');
+(6, 2, '2022-11-14 20:09:47', 'pending'),
+(7, 2, '2022-11-16 21:22:40', 'pending');
 
 -- --------------------------------------------------------
 
@@ -392,7 +402,8 @@ INSERT INTO `POsY022` (`poNo022`, `clientID022`, `dateOfPO022`, `status022`) VAL
 (1, 3, '2022-11-12 03:17:49', 'pending'),
 (2, 5, '2022-11-12 19:20:03', 'pending'),
 (3, 4, '2022-11-13 06:35:11', 'pending'),
-(4, 3, '2022-11-14 20:14:54', 'pending');
+(4, 3, '2022-11-14 20:14:54', 'pending'),
+(5, 3, '2022-11-16 23:18:02', 'pending');
 
 -- --------------------------------------------------------
 
@@ -430,6 +441,16 @@ CREATE TABLE `user_select_parts022` (
   `user_count` int(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Dumping data for table `user_select_parts022`
+--
+
+INSERT INTO `user_select_parts022` (`ID022`, `clientID022`, `partNo022`, `user_count`) VALUES
+(27, 4, 1, 1),
+(28, 4, 3, 1),
+(29, 4, 4, 1),
+(30, 4, 5, 1);
+
 -- --------------------------------------------------------
 
 --
@@ -455,6 +476,15 @@ CREATE TABLE `user_select_partsZ022` (
   `partNo022` varchar(45) NOT NULL,
   `user_count` int(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `user_select_partsZ022`
+--
+
+INSERT INTO `user_select_partsZ022` (`ID022`, `clientID022`, `partNo022`, `user_count`) VALUES
+(27, 5, '3X', 1),
+(28, 5, '4Y', 1),
+(29, 5, '5X', 1);
 
 --
 -- Indexes for dumped tables
@@ -572,31 +602,31 @@ ALTER TABLE `user_select_partsZ022`
 -- AUTO_INCREMENT for table `Clients022`
 --
 ALTER TABLE `Clients022`
-  MODIFY `clientID022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `clientID022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `ClientsY022`
 --
 ALTER TABLE `ClientsY022`
-  MODIFY `clientID022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `clientID022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `ClientsZ022`
 --
 ALTER TABLE `ClientsZ022`
-  MODIFY `clientID022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `clientID022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `Lines022`
 --
 ALTER TABLE `Lines022`
-  MODIFY `lineNo022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `lineNo022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `LinesY022`
 --
 ALTER TABLE `LinesY022`
-  MODIFY `lineNo022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `lineNo022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `LinesZ022`
@@ -620,13 +650,13 @@ ALTER TABLE `PartsY022`
 -- AUTO_INCREMENT for table `POs022`
 --
 ALTER TABLE `POs022`
-  MODIFY `poNo022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `poNo022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `POsY022`
 --
 ALTER TABLE `POsY022`
-  MODIFY `poNo022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `poNo022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `POsZ022`
@@ -638,19 +668,19 @@ ALTER TABLE `POsZ022`
 -- AUTO_INCREMENT for table `user_select_parts022`
 --
 ALTER TABLE `user_select_parts022`
-  MODIFY `ID022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `ID022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT for table `user_select_partsY022`
 --
 ALTER TABLE `user_select_partsY022`
-  MODIFY `ID022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `ID022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT for table `user_select_partsZ022`
 --
 ALTER TABLE `user_select_partsZ022`
-  MODIFY `ID022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `ID022` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- Constraints for dumped tables
